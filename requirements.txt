@@ -1,7 +1,10 @@
 # Add your project dependencies here
 # Example:
-tensorflow
 numpy
 matplotlib
 scikit-learn
 pandas
+torch
+torchvision
+streamlit
+pillow
