@@ -30,7 +30,7 @@ def predict(image, model):
 # --- Enhanced Streamlit App for Mango Leaf Disease Detection ---
 
 st.set_page_config(
-    page_title="Mango Leaf Disease Detection",
+    page_title="Bacterial_Canker in Mango Leaf Disease Detection",
     page_icon="🍃",
     layout="centered",
     initial_sidebar_state="auto"
@@ -39,27 +39,27 @@ st.set_page_config(
 st.markdown("""
 <style>
     .main {
-        background-color: #f8f9fa;
+        background-color: #e6e7e6;
     }
     .stButton>button {
         color: white;
-        background: #228B22;
+        background: red;
         border-radius: 8px;
         font-size: 18px;
         padding: 0.5em 2em;
     }
     .stFileUploader>div>div>button {
-        background: #228B22;
+        background: darkgreen;
         color: white;
     }
 </style>
 """, unsafe_allow_html=True)
 
-st.title('🍃 Mango Leaf Disease Detection')
+st.title('🍃 Bacterial_Canker in Mango Leaf Disease Detection')
 st.markdown('''
 Upload a mango leaf image to detect **Anthracnose** or other diseases using a deep learning model.
 
-- Supported classes: Anthracnose, Bacterial Canker, Die Back, Gall Mid, Healthy
+- Supported classes: Bacterial Canker, Die Back, Gall Mid, Healthy
 - Model: ResNet18 (PyTorch)
 ''')
 
