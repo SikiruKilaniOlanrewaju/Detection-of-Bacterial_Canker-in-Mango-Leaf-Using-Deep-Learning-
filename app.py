@@ -57,7 +57,7 @@ st.markdown("""
 
 st.title('🍃 Bacterial_Canker in Mango Leaf Disease Detection')
 st.markdown('''
-Upload a mango leaf image to detect **Anthracnose** or other diseases using a deep learning model.
+Upload a mango leaf image to detect **Bacterial_Canker** or other diseases using a deep learning model.
 
 - Supported classes: Bacterial Canker, Die Back, Gall Mid, Healthy
 - Model: ResNet18 (PyTorch)
